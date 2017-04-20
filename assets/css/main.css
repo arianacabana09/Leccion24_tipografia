@@ -1,5 +1,5 @@
 .contendor{
-  margin-left: 100px;
+  margin: 40px;
 }
 
 span{
@@ -13,7 +13,7 @@ span{
   float: left;
   text-align: center;
   background-color: #F4F1F1;
-  padding: 20PX;
+  padding: 20px 10px;
   margin: 5px;
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
