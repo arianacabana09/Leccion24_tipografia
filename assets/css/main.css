@@ -1,3 +1,11 @@
+body{
+  margin: auto;
+}
+
+span{
+  font-size: 50px;
+}
+
 .box{
   width: 220px;
   height: 270px;
@@ -6,14 +14,27 @@
   text-align: center;
   background-color: #F4F1F1;
   padding-top: 30PX;
-  margin: 5px;
+  margin: 15px;
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease;
 }
 
-h2{
-  font-family: 'Playfair Display', serif;
+.box:hover{
+  padding-top: 20px;
+  color: white;
+  background-color: #fff;
+  -webkit-transform: scale(1.1);
+  color: #718feb;
+  -webkit-transition: all .0.5s ease-in-out;
+}
+
+h1{
+  font-family: 'Poppins', sans-serif;
+}
+
+h5{
+  font-family: 'Courgette', cursive;
   color: #777777
 }
