@@ -1,5 +1,5 @@
-body{
-  margin: auto;
+.contendor{
+  margin-left: 100px;
 }
 
 span{
@@ -13,25 +13,58 @@ span{
   float: left;
   text-align: center;
   background-color: #F4F1F1;
-  padding-top: 30PX;
-  margin: 15px;
+  padding: 20PX;
+  margin: 5px;
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease;
+  border-radius: 20px;
 }
 
-.box:hover{
+.uno:hover{
   padding-top: 20px;
-  color: white;
   background-color: #fff;
   -webkit-transform: scale(1.1);
-  color: #718feb;
-  -webkit-transition: all .0.5s ease-in-out;
+  color: rgb(81, 151, 196);
+  -webkit-transition: all .0.1s ease-in-out;
 }
 
-h1{
-  font-family: 'Poppins', sans-serif;
+.dos:hover{
+  padding-top: 20px;
+  background-color: #fff;
+  -webkit-transform: scale(1.1);
+  color: rgb(255, 130, 0);
+  -webkit-transition: all .0.3s ease-in-out;
+}
+
+.tres:hover{
+  padding-top: 20px;
+  background-color: #fff;
+  -webkit-transform: scale(1.1);
+  color: rgb(226, 36, 52);
+  -webkit-transition: all .0.3s ease-in-out;
+}
+
+.cuatro:hover{
+  padding-top: 20px;
+  background-color: #fff;
+  -webkit-transform: scale(1.1);
+  color: rgb(255, 215, 8);
+  -webkit-transition: all .0.3s ease-in-out;
+}
+
+.cinco:hover{
+  padding-top: 20px;
+  background-color: #fff;
+  -webkit-transform: scale(1.1);
+  color: rgb(36, 226, 95);
+  -webkit-transition: all .0.3s ease-in-out;
+}
+
+h1, p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
 }
 
 h5{
